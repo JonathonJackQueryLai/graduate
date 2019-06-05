@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>壮哉！我大算法</title>
+    <!DOCTYPE html>
+    <title>HouseMapping</title>
+    <script type="text/javascript"
+            src="https://api.map.baidu.com/api?v=2.0&ak=ZmMCG4QP5FaX064YxPdgQq1sHLYyjKMA"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+</head>
+
+<body>
+<div id="container">
+
+    <div id="header" style="background-color:#cbd1d9;">
+        <a data-method="get" href="http://127.0.0.1:9999/home/">
+            <h1 style="margin-bottom:0;">江门市二手房房价预测</h1>
+        </a><br>
+    </div>
+
+    <div id="menu" style="background-color:#cbd1d9;height:200px;float:left;">
+
+        <a data-method="get" href="http://127.0.0.1:9999/list/">
+            <i class="fa fa-dashboard fa-fw"></i> 安居客房源列表
+        </a><br>
+
+        <a data-method="get" href="http://127.0.0.1:9999/listSFUN/">
+            <i class="fa fa-dashboard fa-fw"></i> 房天下房价预测
+        </a><br>
+
+        <a data-method="get" href="http://127.0.0.1:9999/forecast/">
+            <i class="fa fa-dashboard fa-fw"></i> 房价预测
+        </a><br>
+
+
+
+    </div>
+
+    <div id="content" style="background-color:#EEEEEE;float:left;">
+        {% block content %}
+        {% endblock %}
+    </div>
+
+    <div id="footer" style="background-color:#d96f74;clear:both;text-align:center;">
+        版权 © 乌鸦坐飞机
+    </div>
+
+</div>
+
+</body>
+</html>

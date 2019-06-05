@@ -1,0 +1,53 @@
+1555813846827	geckodriver	INFO	geckodriver 0.19.1
+1555813846847	geckodriver	INFO	Listening on 127.0.0.1:1255
+1555813849886	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\rust_mozprofile.O21H9em8XT36"
+JavaScript error: z2dd23ql4gh.cfg, line 2: ReferenceError: Components is not defined
+1555813851301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555813851301	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1555813851466	Marionette	DEBUG	Received observer notification profile-after-change
+1555813851571	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1555813851634	Marionette	DEBUG	Received observer notification command-line-startup
+1555813851634	Marionette	DEBUG	Received observer notification nsPref:changed
+1555813851634	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555813852404	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1555813854575	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1555813854575	Marionette	DEBUG	Waiting for delayed startup...
+1555813854748	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555813854748	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1555813854749	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555813854750	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555813854750	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555813854751	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555813854866	Marionette	INFO	Listening on port 1264
+1555813854866	Marionette	DEBUG	Remote service is active
+1555813855226	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1280
+1555813855232	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555813855232	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+1555813960549	geckodriver	INFO	geckodriver 0.19.1
+1555813960568	geckodriver	INFO	Listening on 127.0.0.1:1339
+1555813963616	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\python\\AppData\\Local\\Temp\\rust_mozprofile.HCzb0SQ48HwD"
+JavaScript error: z2dd23ql4gh.cfg, line 2: ReferenceError: Components is not defined
+1555813964807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1555813964807	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+1555813964984	Marionette	DEBUG	Received observer notification profile-after-change
+1555813965115	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1555813965214	Marionette	DEBUG	Received observer notification command-line-startup
+1555813965214	Marionette	DEBUG	Received observer notification nsPref:changed
+1555813965215	Marionette	DEBUG	Init aborted (running=false, enabled=true, finalUIStartup=false)
+1555813965923	Marionette	DEBUG	Received observer notification toplevel-window-ready
+1555813967905	Marionette	DEBUG	Received observer notification sessionstore-windows-restored
+1555813967906	Marionette	DEBUG	Waiting for delayed startup...
+1555813968072	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1555813968072	Marionette	DEBUG	Setting recommended pref security.turn_off_all_security_so_that_viruses_can_take_over_this_computer to true
+1555813968073	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1555813968075	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1555813968075	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1555813968075	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1555813968176	Marionette	INFO	Listening on port 1347
+1555813968176	Marionette	DEBUG	Remote service is active
+1555813968964	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:1373
+1555813968966	Marionette	TRACE	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1555813968967	Marionette	TRACE	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:178: ... et@chrome://marionette/content/server.js:236:8\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:490:9\n"},null]
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown

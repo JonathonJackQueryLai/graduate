@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #l-map {
+            height: 800px;
+            width: 100%;
+            float: left;
+        }
+
+        #r-result {
+            width: 20%;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=tH5K6VVZMS6GRlGeNsBjmyImFu5Fz2ip
+"></script>
+    <title>lat&lnt</title>
+</head>
+<body>
+<div id="l-map"></div>
+<div id="r-result"> 请输入地址：
+    <br/>
+
+    <form action="/get_house_location/" method="get">
+        <input type="text" id="txtKeyword">
+    </form>
+    <br/>
+    <button onclick="searchAddr()">搜索</button>
+</div>
+<script src="../static/jquery-3.4.0.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // 百度地图API功能
+        map = new BMap.Map("l-map");            // 创建Map实例
+        map.centerAndZoom("{$address}", 12);
+        map.enableScrollWheelZoom();    //启用滚轮放大缩小，默认禁用
+        map.enableContinuousZoom();    //启用地图惯性拖拽，默认禁用
+        map.addControl(new BMap.NavigationControl());  //添加默认缩放平移控件
+        map.addControl(new BMap.OverviewMapControl()); //添加默认缩略地图控件
+        map.addControl(new BMap.OverviewMapControl({isOpen: true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT}));   //右下角，打开
+
+        local = new BMap.LocalSearch(map, {
+            renderOptions: {map: map, autoViewport: true, selectFirstResult: false},
+            pageCapacity: 10
+        });
+
+        myIcon = new BMap.Icon("http://api.map.baidu.com/img/markers.png", new BMap.Size(23, 25), {
+            offset: new BMap.Size(10, 25),
+            imageOffset: new BMap.Size(0, 0 - 10 * 25)
+        });
+
+
+        var keys = new Array("{$address}");
+        locat_pos_xy = new Array();
+
+        local.setSearchCompleteCallback(function (searchResults) {
+            console.log(searchResults);
+            if (typeof(searchResults) == "undefined") {
+                alert("百度API没有搜索到该地址");
+                return;
+            }
+            if (searchResults.length > 0) {
+                var searchResult = searchResults[0];
+            } else {
+                var searchResult = searchResults;
+            }
+
+            console.log(searchResult);
+
+            var contents = [];
+            var res = [];
+            for (var i = 0; i < searchResult.getCurrentNumPois(); i++) {
+                //获得需要得到的坐标
+                var poi = searchResult.getPoi(i);
+                if (!poi) {
+                    alert("百度API没有搜索到该地址");
+                }
+                // console.log(poi);
+
+                //设置中心点
+                map.centerAndZoom(poi.point, 13);
+                // 创建标注，为要查询的地方对应的经纬度
+                var marker = new BMap.Marker(new BMap.Point(poi.point.lng, poi.point.lat), {icon: myIcon});
+                //alert("["+poi.point.lng+","+poi.point.lat+"]");
+                //在地图上添加标识
+                map.addOverlay(marker);
+                //点击标识后显示的内容
+                contents[i] = "你要查找的地方:【" + poi.title + "】<br/>地址：" + poi.address + "<br/>经度：" + poi.point.lng + "<br/>纬度：" + poi.point.lat;
+                locat_pos_xy[poi.title] = poi.point.lng + ',' + poi.point.lat;
+                $("#ttttt").text(locat_pos_xy[poi.title]);
+                marker.setTitle(contents[i]);
+                //添加点击事件监听
+                marker.addEventListener("click", makerClick);
+                if (i == 0) {
+                    var infoWindow = new BMap.InfoWindow("<p style='font-size:14px;'>" + contents[0] + "</p>");
+                    marker.openInfoWindow(infoWindow);
+                }
+                break
+
+            }
+
+        });
+
+
+    });
+
+    var makerClick = function () {
+        var infoWindow = new BMap.InfoWindow("<p style='font-size:14px;'>" + this.getTitle() + "</p>");
+        this.openInfoWindow(infoWindow);
+    }
+
+    function searchAddr() {
+        var keys = document.getElementById("txtKeyword").value;
+        console.log(keys);
+        local.search(keys);
+    }
+</script>
+<a id="ttttt"></a>
+</body>
+</html>
+

@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a355f54a-0eaa-4170-a957-873e30633b61" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/AIMap$chaojiying.coverage" NAME="chaojiying Coverage Results" MODIFIED="1558764144459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$xiaohua.coverage" NAME="xiaohua Coverage Results" MODIFIED="1556036014921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/校花" />
+    <SUITE FILE_PATH="coverage/AIMap$mydataClesn_002.coverage" NAME="mydataClesn_002 Coverage Results" MODIFIED="1558176762740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$indexClean.coverage" NAME="indexClean Coverage Results" MODIFIED="1558717965649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$myDT.coverage" NAME="myDT Coverage Results" MODIFIED="1559705945671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$IPcvs__1_.coverage" NAME="IPcvs (1) Coverage Results" MODIFIED="1555515748085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/" />
+    <SUITE FILE_PATH="coverage/AIMap$IPcsv.coverage" NAME="IPcsv Coverage Results" MODIFIED="1555576877666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/IPpool" />
+    <SUITE FILE_PATH="coverage/AIMap$myEmail.coverage" NAME="myEmail Coverage Results" MODIFIED="1557046858037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/housePrice" />
+    <SUITE FILE_PATH="coverage/AIMap$RT.coverage" NAME="RT Coverage Results" MODIFIED="1557474982991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/webAddress_New$fangTianXia.coverage" NAME="fangTianXia Coverage Results" MODIFIED="1552318011051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/SFUN" />
+    <SUITE FILE_PATH="coverage/AIMap$outPutModel.coverage" NAME="outPutModel Coverage Results" MODIFIED="1558074692090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$data_treating_001.coverage" NAME="data_treating_001 Coverage Results" MODIFIED="1556094778618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$GanjiCom.coverage" NAME="GanjiCom Coverage Results" MODIFIED="1556469066156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/ganji" />
+    <SUITE FILE_PATH="coverage/AIMap$VCodeSent.coverage" NAME="VCodeSent Coverage Results" MODIFIED="1559660265957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$boston2.coverage" NAME="boston2 Coverage Results" MODIFIED="1557221117450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$otherData.coverage" NAME="otherData Coverage Results" MODIFIED="1557213033657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$Acrawl.coverage" NAME="Acrawl Coverage Results" MODIFIED="1558776301645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$demo1.coverage" NAME="demo1 Coverage Results" MODIFIED="1555818308345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$urls.coverage" NAME="urls Coverage Results" MODIFIED="1558426457871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/address" />
+    <SUITE FILE_PATH="coverage/AIMap$changeIP.coverage" NAME="changeIP Coverage Results" MODIFIED="1556457445845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/IPpool" />
+    <SUITE FILE_PATH="coverage/AIMap$clean1.coverage" NAME="clean1 Coverage Results" MODIFIED="1557475814793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$.coverage" NAME="测试版 Coverage Results" MODIFIED="1558779544843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/housePrice/templates" />
+    <SUITE FILE_PATH="coverage/webAddress_New$GanjiCom__1_.coverage" NAME="GanjiCom (1) Coverage Results" MODIFIED="1552384127265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/ganji" />
+    <SUITE FILE_PATH="coverage/AIMap$onthot__001.coverage" NAME="onthot__001 Coverage Results" MODIFIED="1557833499016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$getIP.coverage" NAME="getIP Coverage Results" MODIFIED="1556465273010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/IPpool" />
+    <SUITE FILE_PATH="coverage/AIMap$demo.coverage" NAME="demo Coverage Results" MODIFIED="1558060913534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$seleniumForGanJi.coverage" NAME="seleniumForGanJi Coverage Results" MODIFIED="1555813959060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/ganji" />
+    <SUITE FILE_PATH="coverage/webAddress_New$GanjiCom.coverage" NAME="GanjiCom Coverage Results" MODIFIED="1552287520116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl" />
+    <SUITE FILE_PATH="coverage/AIMap$clean.coverage" NAME="clean Coverage Results" MODIFIED="1557475252575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$settings.coverage" NAME="settings Coverage Results" MODIFIED="1556870076188" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/address" />
+    <SUITE FILE_PATH="coverage/AIMap$heart.coverage" NAME="heart Coverage Results" MODIFIED="1552635019607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$IPcvs.coverage" NAME="IPcvs Coverage Results" MODIFIED="1555513413317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/IPpool" />
+    <SUITE FILE_PATH="coverage/AIMap$demo3.coverage" NAME="demo3 Coverage Results" MODIFIED="1557374123710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/webAddress_New$Acrawl.coverage" NAME="Acrawl Coverage Results" MODIFIED="1552362673957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/Anjuke" />
+    <SUITE FILE_PATH="coverage/AIMap$myPCA.coverage" NAME="myPCA Coverage Results" MODIFIED="1559054346651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$views.coverage" NAME="views Coverage Results" MODIFIED="1558718175432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/housePrice" />
+    <SUITE FILE_PATH="coverage/AIMap$GanjiCom__1_.coverage" NAME="GanjiCom (1) Coverage Results" MODIFIED="1554970182346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/ganji" />
+    <SUITE FILE_PATH="coverage/AIMap$demo2.coverage" NAME="demo2 Coverage Results" MODIFIED="1555600657800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$mydataClean.coverage" NAME="mydataClean Coverage Results" MODIFIED="1559209632236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/webAddress_New$secondHouse.coverage" NAME="secondHouse Coverage Results" MODIFIED="1551967314762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/SFUN" />
+    <SUITE FILE_PATH="coverage/AIMap$stmpQQ.coverage" NAME="stmpQQ Coverage Results" MODIFIED="1558200391295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/校花" />
+    <SUITE FILE_PATH="coverage/AIMap$bostonHouse.coverage" NAME="bostonHouse Coverage Results" MODIFIED="1558061509651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/dataAlalyze" />
+    <SUITE FILE_PATH="coverage/AIMap$fangTianXia.coverage" NAME="fangTianXia Coverage Results" MODIFIED="1558601091061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/SFUN" />
+    <SUITE FILE_PATH="coverage/AIMap$dataMongo.coverage" NAME="dataMongo Coverage Results" MODIFIED="1558709503980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawl/dataScore" />
+    <SUITE FILE_PATH="coverage/webAddress_New$urls.coverage" NAME="urls Coverage Results" MODIFIED="1546850181386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/address" />
+    <SUITE FILE_PATH="coverage/AIMap$baiduSpider.coverage" NAME="baiduSpider Coverage Results" MODIFIED="1556209366728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/housePrice" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1265855318">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="122" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="6" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.13" value="7" />
+          <entry key="project.open.time.14" value="6" />
+          <entry key="project.open.time.15" value="12" />
+          <entry key="project.open.time.16" value="6" />
+          <entry key="project.open.time.17" value="8" />
+          <entry key="project.open.time.18" value="9" />
+          <entry key="project.open.time.19" value="7" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.20" value="10" />
+          <entry key="project.open.time.21" value="6" />
+          <entry key="project.open.time.22" value="7" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.26" value="6" />
+          <entry key="project.open.time.27" value="2" />
+          <entry key="project.open.time.29" value="6" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.30" value="2" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.46" value="1" />
+          <entry key="project.opened" value="130" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="axlsx" value="2" />
+          <entry key="csv" value="196" />
+          <entry key="cvs" value="3" />
+          <entry key="dat" value="1" />
+          <entry key="erb" value="8" />
+          <entry key="freeze" value="2" />
+          <entry key="html" value="184" />
+          <entry key="jpg" value="13" />
+          <entry key="js" value="8" />
+          <entry key="json" value="9" />
+          <entry key="log" value="3" />
+          <entry key="png" value="46" />
+          <entry key="py" value="544" />
+          <entry key="pyi" value="2" />
+          <entry key="rb" value="3" />
+          <entry key="rnc" value="1" />
+          <entry key="sqlite3" value="1" />
+          <entry key="ts" value="2" />
+          <entry key="ttc" value="2" />
+          <entry key="ttf" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSV" value="182" />
+          <entry key="HTML" value="184" />
+          <entry key="Image" value="59" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="8" />
+          <entry key="PLAIN_TEXT" value="40" />
+          <entry key="Python" value="544" />
+          <entry key="PythonStub" value="2" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="TypeScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Django Console" value="315" />
+          <entry key="csv" value="105" />
+          <entry key="dummy" value="26" />
+          <entry key="freeze" value="1" />
+          <entry key="html" value="7723" />
+          <entry key="js" value="4" />
+          <entry key="py" value="39583" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSV" value="104" />
+          <entry key="HTML" value="7723" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Python" value="39897" />
+          <entry key="RegExp" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="webAddress_New" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataAlalyze/mydataClean.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="195" column="34" lean-forward="true" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/housePrice/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="180" column="28" lean-forward="true" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/address/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataAlalyze/indexClean.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-46">
+              <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+              <folding>
+                <element signature="e#6512#6635#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawl/Anjuke/Anjuke1.csv">
+          <provider selected="true" editor-type-id="csv-text-editor">
+            <state relative-caret-position="594">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            </state>
+          </provider>
+          <provider editor-type-id="csv-table-editor">
+            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>房子</find>
+      <find>floortxt</find>
+      <find>装修</find>
+      <find>singletxt</find>
+      <find>size</find>
+      <find>sizeType</find>
+      <find>tempstr</find>
+      <find>df9.iloc[i]</find>
+      <find>findNumber</find>
+      <find>cAaGetClan</find>
+      <find>dic</find>
+      <find>, tempStr=''</find>
+      <find>housetypeGetRes</find>
+      <find>高度</find>
+      <find>GET</find>
+      <find>MultiIndex</find>
+      <find>list</find>
+      <find>listI</find>
+      <find>&lt;span class=&quot;pull-left&quot;&gt;View Details&lt;/span&gt;</find>
+      <find>View Details</find>
+      <find>周边基础设施</find>
+      <find>load</find>
+      <find>&lt;img src=&quot;http://placehold.it/280x200&quot;</find>
+      <find>预测价格：</find>
+      <find>mPoint</find>
+      <find>get_dummies</find>
+      <find>print</find>
+      <find>img</find>
+      <find>weightCal</find>
+      <find>houseAge</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>startYear</replace>
+      <replace>:&quot;$1&quot;,</replace>
+      <replace>&quot;$1&quot;:</replace>
+      <replace>urlAndName</replace>
+      <replace />
+      <replace>school</replace>
+      <replace>senicSpot</replace>
+      <replace>detailList</replace>
+      <replace>housesize</replace>
+      <replace>houseType</replace>
+      <replace>decorate</replace>
+      <replace>addres</replace>
+      <replace>address</replace>
+      <replace>community</replace>
+      <replace>getlift</replace>
+      <replace>toward</replace>
+      <replace>regionList</replace>
+      <replace>Index</replace>
+      <replace>Value</replace>
+      <replace>pages</replace>
+      <replace>pages1</replace>
+      <replace>tempStr</replace>
+      <replace>cAaGetClean</replace>
+      <replace>get</replace>
+      <replace>Point</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Users\python\PycharmProjects\webAddress_New\crawl\Anjuke</dir>
+      <dir>F:\Users\python\PycharmProjects\webAddress_New\housePrice\templates</dir>
+    </dirStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/crawl/SFUN/fangTianXia.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/crawl/SFUN/SFUN.csv" />
+        <option value="$PROJECT_DIR$/dataAlalyze/SFUN_csv.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/RT.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/__init__.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/clean.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/clean1.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/test.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/autumn.html" />
+        <option value="$PROJECT_DIR$/crawl/Anjuke/Anjuke1.csv" />
+        <option value="$PROJECT_DIR$/crawl/ganji/seleniumForGanJi.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/myClean1.csv" />
+        <option value="$PROJECT_DIR$/dataAlalyze/onthot__001.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/dataList.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/otherDataList.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/getModelData.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/postMyConInfo.html" />
+        <option value="$PROJECT_DIR$/dataAlalyze/linearG.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/demo.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/bostonHouse.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/outPutModel.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/login.html" />
+        <option value="$PROJECT_DIR$/dataAlalyze/mydataClesn_002.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/ajaxDeom.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/forcast__001.html" />
+        <option value="$PROJECT_DIR$/housePrice/models.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/referInfo.html" />
+        <option value="$PROJECT_DIR$/crawl/dataScore/Anjuke3.csv" />
+        <option value="$PROJECT_DIR$/housePrice/templates/priceDiv.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/listinfo.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/基设.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/amazing_index.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/itemdetailInfo.html" />
+        <option value="$PROJECT_DIR$/crawl/SFUN/fangTianXia.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/AImap.html" />
+        <option value="$PROJECT_DIR$/housePrice/templates/listinfoSfun.html" />
+        <option value="$PROJECT_DIR$/crawl/dataScore/dataMongo.py" />
+        <option value="$PROJECT_DIR$/crawl/Anjuke/picCut.py" />
+        <option value="$PROJECT_DIR$/crawl/Anjuke/Acrawl.py" />
+        <option value="$PROJECT_DIR$/crawl/Anjuke/chaojiying.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/测试版.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/resInfo.html" />
+        <option value="$PROJECT_DIR$/crawl/校花/stmpQQ.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/myPCA.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/mydataClean.py" />
+        <option value="$PROJECT_DIR$/crawl/Anjuke/VCodeSent.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/myDT.py" />
+        <option value="$PROJECT_DIR$/housePrice/templates/500处理.html" />
+        <option value="$PROJECT_DIR$/address/settings.py" />
+        <option value="$PROJECT_DIR$/address/urls.py" />
+        <option value="$PROJECT_DIR$/dataAlalyze/indexClean.py" />
+        <option value="$PROJECT_DIR$/housePrice/views.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+              <item name="address" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+              <item name="crawl" type="462c0819:PsiDirectoryNode" />
+              <item name="Anjuke" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+              <item name="housePrice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webAddress_New" type="462c0819:PsiDirectoryNode" />
+              <item name="housePrice" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AIMap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../goodSpider" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\housePrice\static" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\crawl\Anjuke" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\crawl\ganji" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\housePrice\templates" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\housePrice\static" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\crawl\Anjuke" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New" />
+      <recent name="F:\Users\python\PycharmProjects\webAddress_New\dataAlalyze" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.myDT">
+    <configuration name="测试版" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/housePrice/templates" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/housePrice/templates/测试版.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="VCodeSent" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/crawl/Anjuke" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawl/Anjuke/VCodeSent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="aliyun" type="PythonConfigurationType" factoryName="Python">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="D:\python-3.6.3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myDT" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataAlalyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataAlalyze/myDT.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="myPCA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataAlalyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataAlalyze/myPCA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mydataClean" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dataAlalyze" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dataAlalyze/mydataClean.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="webAddress_New" type="Python.DjangoServer" factoryName="Django server">
+      <module name="AIMap" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="address.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.webAddress_New" />
+      <item itemvalue="Python.aliyun" />
+      <item itemvalue="Python.VCodeSent" />
+      <item itemvalue="Python.测试版" />
+      <item itemvalue="Python.myDT" />
+      <item itemvalue="Python.myPCA" />
+      <item itemvalue="Python.mydataClean" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.myDT" />
+        <item itemvalue="Python.VCodeSent" />
+        <item itemvalue="Python.mydataClean" />
+        <item itemvalue="Python.myPCA" />
+        <item itemvalue="Python.测试版" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a355f54a-0eaa-4170-a957-873e30633b61" name="Default Changelist" comment="" />
+      <created>1546687572956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546687572956</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6260032" visible="true" weight="0.27665246" />
+      <window_info id="Structure" order="1" sideWeight="0.3739968" side_tool="true" weight="0.13539445" />
+      <window_info id="Favorites" order="2" sideWeight="0.3683274" side_tool="true" weight="0.21908316" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.38678223" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34127843" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.20260021" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.2611051" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.3716143" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.5254605" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.20362474" />
+      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="SciView" order="4" weight="0.28837952" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6260032" visible="true" weight="0.13539445" />
+      <window_info id="Structure" order="1" sideWeight="0.3739968" side_tool="true" weight="0.13539445" />
+      <window_info id="Favorites" order="2" sideWeight="0.3683274" side_tool="true" weight="0.21908316" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.29685807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3802817" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="File Transfer" order="9" weight="0.20260021" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.11700975" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.3716143" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.52654386" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.20362474" />
+      <window_info anchor="right" x="0" y="23" width="1920" height="1017" id="SciView" order="4" weight="0.28837952" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawl/SFUN/fangTianXia.py</url>
+          <line>190</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawl/SFUN/fangTianXia.py</url>
+          <line>175</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawl/Anjuke/Acrawl.py</url>
+          <line>113</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/crawl/ganji/seleniumForGanJi.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.header" language="Python" />
+        <watch expression="self.resultList" language="Python" />
+        <watch expression="self.urlList" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>len(urlstr[0]) &lt; 2 or len(urlstr) &lt; 1</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>len(urlstr[0]) &lt; 2</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="watch">
+      <expression>
+        <expression-string>self.resultList</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.urlList</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>self.header</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>houseInfo</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>html.url</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/outPutModel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/SFUN/fangTianXia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="184" column="5" selection-start-line="184" selection-start-column="5" selection-end-line="184" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/471892327/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="297" column="4" selection-start-line="297" selection-start-column="4" selection-end-line="297" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/dataScore/SFUN1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-729">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/django/utils/autoreload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="273" selection-start-line="273" selection-end-line="273" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/django/core/management/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="364" selection-start-line="364" selection-end-line="364" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/AImap.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/listinfoSfun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="36" column="79" selection-start-line="36" selection-start-column="79" selection-end-line="36" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/dataScore/Anjuke3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="52" selection-start-column="45" selection-end-column="52" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/referInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459">
+          <caret line="7" column="98" selection-start-line="7" selection-start-column="98" selection-end-line="7" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/static/singleDog.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/dataScore/dataMongo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1215">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/target.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/duozi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ganji/GanjiCom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3689" />
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/selenium/webdriver/common/action_chains.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="254" column="28" lean-forward="true" selection-start-line="254" selection-start-column="28" selection-end-line="254" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="241" column="46" lean-forward="true" selection-start-line="241" selection-start-column="46" selection-end-line="241" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/ganji/seleniumForGanJi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="88" column="24" selection-start-line="88" selection-end-line="88" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/selenium/webdriver/firefox/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/测试版.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/forcast__001.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3321" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/chaojiying.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/Acrawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1404">
+          <caret line="66" column="50" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="50" />
+          <folding>
+            <element signature="e#113#123#0" expanded="true" />
+            <element signature="e#595#1260#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/resInfo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/校花/stmpQQ.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/huitu.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/SFUN/SFUN.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="163" lean-forward="true" selection-start-line="1" selection-start-column="92" selection-end-line="1" selection-end-column="163" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/myClean1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/yidong.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/sklearn/decomposition/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/tensorflow/python/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="864" column="37" selection-start-line="864" selection-start-column="29" selection-end-line="864" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/picCut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/sklearn/decomposition/pca.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="576" column="6" lean-forward="true" selection-start-line="576" selection-start-column="6" selection-end-line="576" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/Anjuke.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="258">
+          <caret line="13" column="89" selection-end-line="13" selection-end-column="89" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/Anjuke2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2796">
+          <caret line="1663" selection-start-line="1663" selection-end-line="1663" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/myClean2.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="-6399">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/myPCA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/python-3.6.3/Lib/site-packages/sklearn/ensemble/forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="1260" column="8" selection-start-line="1260" selection-start-column="8" selection-end-line="1260" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/myClean3.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/myDT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+          <folding>
+            <element signature="e#233#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/templates/500处理.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/VCodeSent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/mydataClean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="195" column="34" lean-forward="true" selection-start-line="195" selection-start-column="34" selection-end-line="195" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataAlalyze/indexClean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="270" column="16" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
+          <folding>
+            <element signature="e#6512#6635#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/housePrice/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="180" column="28" lean-forward="true" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawl/Anjuke/Anjuke1.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-594">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/address/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

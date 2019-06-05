@@ -1,0 +1,159 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #l-map {
+            height: 300px;
+            width: 100%;
+        }
+
+        #r-result {
+            width: 100%;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    </style>
+
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=n3dEB2E9nKLfDb4avibAMBd9fC2iTkt9"></script>
+    <title>周边基设</title>
+</head>
+<body>
+
+<div id="l-map"></div>
+<div id="r-result"></div>
+<div id="allmap"></div>
+<input id="textId" value="{{ TutorialList }}"></input>
+
+<script src="../static/jquery-3.4.0.min.js"></script>
+
+<script type="text/javascript">
+    var field = new Array();
+    field = {{ TutorialList|safe }};
+    $(document).ready(function () {
+        // 百度地图API功能
+
+
+        var map = new BMap.Map("l-map");
+        var myGeo = new BMap.Geocoder();
+        for (var i = 0; i < field.length; i++) {
+            myGeo.getPoint(field[i], function (Point) {
+                    if (Point) {
+                        // 如果查到坐标，开始检索周围信息
+                        //console.log(point);
+                        //map.centerAndZoom("江门市", 12);// 创建Map实例
+                        var marker = new BMap.Marker(Point);
+                        map.enableScrollWheelZoom();
+                        map.centerAndZoom(Point, 15);
+                        map.addOverlay(marker);
+                        //marker.setAnimation(BMAP_ANIMATION_BOUNCE); // 出现跳点
+                        // var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+                        // map.addControl(top_left_control);
+                        var myKeys = ['公交站', '餐饮娱乐', '超市商场', '医疗机构', '教育机构', '景点'];
+                        var circle = new BMap.Circle(Point, 500, {
+                            fillColor: "yellow",
+                            strokeWeight: 1,
+                            fillOpacity: 0.3,
+                            strokeOpacity: 0.3
+                        });
+                        map.addOverlay(circle);
+                        //var positions = new Array();
+                        var local = new BMap.LocalSearch(map,
+                            {
+                                renderOptions: {map: map, panel: "r-result"},
+                                pageCapacity: 5,
+                            });
+                        local.searchNearby(myKeys, Point, radius = 500);
+                        local.setSearchCompleteCallback(function (searchResults) {
+
+                            let result = new Map();
+                            let busStationTmp = searchResults[0].Ar;
+                            let busStation = new Array();
+                            for (let i = 0; i < busStationTmp.length; i++) {
+                                busStation.push(busStationTmp[i].title + "-公交车站");
+                            }
+                            result.set("BusStation", busStation);
+
+                            let hotelTmp = searchResults[1].Ar;
+                            let hotel = new Array();
+                            for (let i = 0; i < hotelTmp.length; i++) {
+                                hotel.push(hotelTmp[i].title);
+                            }
+                            result.set("Hotel", hotel);
+
+                            let squareTmp = searchResults[2].Ar;
+                            let square = new Array();
+                            for (let i = 0; i < squareTmp.length; i++) {
+
+                                square.push(squareTmp[i].title);
+                            }
+                            result.set("Square", square);
+
+                            let hospitalTmp = searchResults[3].Ar;
+                            let hospital = new Array();
+                            for (let i = 0; i < hospitalTmp.length; i++) {
+
+
+                                hospital.push(hospitalTmp[i].title);
+                            }
+                            result.set("Hospital", hospital);
+
+                            let schoolTmp = searchResults[4].Ar;
+                            let school = new Array();
+                            for (let i = 0; i < schoolTmp.length; i++) {
+
+
+                                school.push(schoolTmp[i].title);
+
+                            }
+                            result.set("School", school);
+
+                            let senicSpotTmp = searchResults[5].Ar;
+                            let senicSpot = new Array();
+                            for (let i = 0; i < senicSpotTmp.length; i++) {
+
+                                senicSpot.push(senicSpotTmp[i].title);
+                            }
+                            result.set("SenicSpot", senicSpot);
+
+
+                            $.post('pmc/', {data: result}, function (status) {
+
+                                console.log('status:' + status);
+                                //setTimeout (1000);
+                                //window.cleanData();
+
+                            });
+
+
+                            // test_ajax
+                        });
+
+                    } else {
+                        // 如果街道没查搭配，再用小区去查坐标
+                        alert('err--');
+
+                    }
+                }, '江门'
+            );
+        }
+
+    })
+    ;
+
+</script>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>估算房价</title>
+    <link rel="stylesheet" type="text/css" href="../static/default20170216.css">
+</head>
+<body>
+<div> <a href="http://127.0.0.1:9999/refer/">填写参考</a></div>
+<form action="/forecast/" method="post" id="form_pinggufast">
+    <ul class="form-item clearfix">
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>地点：</label>
+            <div class="floorDiv" id="pgsy_D01_04" cig="cig">
+                <input type="text" name="addresstxt" id="addresstxt" tabindex="4" class="input-w195" autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>面积：</label>
+            <div class="areaDiv" id="pgsy_D01_02" cig="cig">
+                <input type="text" name="buildareatxt" id="buildareatxt" value="" tabindex="2" class="input-w195"
+                       autocomplete="off">
+                <span class="pm">㎡</span>
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>楼层：</label>
+            <div class="floorDiv" id="pgsy_D01_04" cig="cig">
+                <input type="text" name="floortxt" id="floortxt" tabindex="4" class="input-w195" autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>房子规格：</label>
+            <div class="floorDiv" id="pgsy_D01_04" cig="cig">
+                <input type="text" name="housetypetxt" id="housetypetxt" tabindex="4" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>有无电梯：</label>
+            <div class="floorDiv" id="pgsy_D01_04" cig="cig">
+                <input type="text" name="lifttxt" id="lifttxt" tabindex="4" class="input-w195" autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>满几年：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="righttxt" id="righttxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>是否唯一：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="singletxt" id="singletxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>朝向：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="towardtxt" id="towardtxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>总楼层：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="totalfloortxt" id="totalfloortxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>装修程度：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="decoratetxt" id="decoratetxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+
+    </ul>
+
+    <input type="submit" value="算房价" style="text-align: center;width: 100%"/>
+
+</form>
+</body>
+</html>

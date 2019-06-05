@@ -1,0 +1,142 @@
+body { font-family:"Microsoft Yahei"; margin:0 auto; padding:0; }
+div, form, ul, ol, li, span, p, dl, dt, dd,th,td,select,input,textarea,h1, h2, h3, h4, h5, h6{ margin:0; padding:0;}
+img, a img {border:0; margin:0; padding:0;}
+li { list-style:none;}
+input{border: none; outline: none;}
+table, td, input,button {padding:0; font-family:inherit;}
+.bignews { color:#cc0000;}
+.blank8 { height:8px; overflow:hidden; clear:both;}
+.noneBox { display:none; }
+img{vertical-align: top; border: none;}
+cite, em, i, b {font-style: normal;}
+table{border-collapse: collapse;}
+textarea{resize: none; overflow: auto; margin: 0; padding: 0;}
+form,select{margin: 0;}
+.clearfix:after{clear:both; content:"\200B"; display:block; height:0;}
+.clearfix{ *zoom:1;}
+.clear{clear:both; font-size:0; height:0; line-height:0; overflow:hidden;}
+a {color: #333; outline-style: none; text-decoration: none;}
+a:hover {text-decoration: none; color: #f00;}
+.floatl{float: left;}
+.floatr{float: right;}
+.f14{font-size: 14px;}
+.f12{font-size: 12px;}
+.c999{color: #999;}
+.borderC{border: 1px solid #ccc;}
+
+.w1200{width: 1200px; margin: 10px auto;font-family: Microsoft Yahei;}
+.search-form{float: left; width: 356px; margin-right: 10px; background: #f2f2f2; padding: 28px 32px 22px 0; position: relative;
+	background: #f1f1f1; box-shadow: 2px 2px 3px #e2e2e2; z-index: 10;}
+.search-form .right-top{width: 37px; height: 33px; position: absolute; top: 0; right: -4px; /*background: url(//static.soufunimg.com/esf/fangjia/website/images/right-top-1.png) no-repeat;*/}
+.fangjia-tit{height: 16px; line-height: 16px; color: #333; font-size: 16px; padding-left: 25px; font-weight: bold;
+ background: url(//static.soufunimg.com/esf/fangjia/website/images/icon_home.png) no-repeat; margin: 0 0 28px 30px;}
+.form-item{padding-right: 0;}
+.form-item li{margin-bottom: 12px; *float: left;}
+.form-label{float: left; width: 93px; padding: 0 7px; text-align: right; line-height: 40px; font-size: 14px; color: #333;}
+.form-label .star{color: #c00; font-size: 14px;}
+.village{float: left; position: relative; z-index: 100;}
+.input-w180{float: left; padding: 10px; width: 180px; height: 17px; line-height: 17px; border: 1px solid #c00; background: #fff; font-size: 14px;font-family: Microsoft Yahei;}
+.btn-search{float: left; width: 43px; height: 39px; background: url(//static.soufunimg.com/esf/fangjia/website/images/icon_search.png) no-repeat;}
+.village-subject{position: absolute; left: 0; top: 39px; z-index: 12; border: 1px solid #ddd; border-bottom: none; width: 243px; background: #fff;}
+.village-subject li{height: 38px; border-bottom: 1px solid #ddd; margin: 0; float: none; *vertical-align: top;}
+.village-subject li a{display: block; padding: 0 10px; line-height: 38px; color: #999; font-size: 14px;}
+.village-subject li a:hover{background: #e9e9e9; color: #333;}
+.areaDiv,.floorDiv,.priceDiv{width: 224px; height: 18px; line-height: 18px; border: 1px solid #ddd; padding: 10px; float: left; background: #fff;}
+.areaDiv,.priceDiv{position: relative;}
+.areaDiv .pm,.priceDiv .wy{position: absolute; display: block; right: 10px; top: 10px; font-size: 14px; color: #999;}
+.input-w195{display: block; width: 195px; height: 17px; border: none; outline: none; font-size: 14px; color:#333;}
+.select-box{width: 245px; float: left; position: relative;}
+.select-box .title{width: 223px; height: 17px; line-height: 17px; border: 1px solid #ddd; padding: 10px; cursor: pointer; font-size: 14px;
+ font-size: 14px; color: #333; background: #fff url(//static.soufunimg.com/esf/fangjia/website/images/arrow.png) no-repeat 223px 15px;}
+.select-box ul{border: 1px solid #ddd; position: absolute; left: 0; top: 39px; z-index: 10; margin-top: -1px; width: 243px; 
+	border-bottom: none; background: #fff;}
+.select-box ul li{height: 38px; border-bottom: 1px solid #ddd; margin: 0; float: none; *vertical-align: top;line-height: 38px;color:#333}
+.select-box li a{display: block; line-height: 38px; padding: 0 10px; text-align: left; font-size: 14px;}
+.select-box li a:hover{background: #e9e9e9; color: #333;}
+.selectted{background:#ffffeb}
+.btn-submit{display: block; width: 105px; height: 40px; line-height: 40px; text-align: center; color: #fff; font-size: 16px; background: #c00;
+border-radius: 4px; margin: 6px auto 0 auto; *margin-top: 20px; border: none; cursor: pointer; font-family:"Microsoft Yahei";}
+.price-trend{border: 1px solid #ddd; padding: 16px 30px 30px; width: 738px; float: left; height: 451px;}
+.price-trend h3{font-size: 16px; color: #333; height: 45px; line-height: 45px; font-weight: 400;}
+.chart-num{height: 22px; line-height: 22px; font-size: 12px;}
+.chart-bold{font-weight: bold;}
+.chart-red{color: #c00;}
+.chart-green{color: #090;}
+.chart-arrow-up{font-weight: bold; color: #c00;}
+.chart-arrow-down{font-weight: bold; color: #090;}
+.chart-tab{width: 100%; height: 32px; margin-bottom: 40px; background: url(//static.soufunimg.com/esf/fangjia/website/images/bg-tab.jpg) repeat-x left bottom;}
+.chart-tab div{float: right; padding: 0 14px; font-size: 12px; color: #333; line-height: 30px; text-align: center; cursor: pointer;}
+.chart-tab .cur{border: 1px solid #ddd; border-bottom: 1px solid #fff; border-top: 1px solid #c00; color: #c00;}
+.chart-tag{padding-left: 27px; margin-bottom: 35px;}
+.chart-tag span{margin-left: 8px; font-size: 12px;}
+.chart-tag i{display: inline-block; width: 10px; height: 10px; margin-right: 5px;}
+.chart-tag .chart-tab-red{background: #f69f2d;}
+.chart-tag .chart-tab-green{background: #6c0;}
+.curve-pic,.histogram-pic{width: 680px; margin: 0 auto;}
+
+.price-info{margin-top: 10px; border: 1px solid #ddd; padding: 40px 0 30px 0; width: 1198px;}
+.price-info dt,.price-info dd{float: left;}
+.price-info dt{padding: 0 60px; border-right: 1px solid #ccc; text-align: center;}
+.price-info dt h3{color: #c00; font-size: 36px; line-height: 40px;}
+.price-info dt p{font-size: 18px; color: #666; height: 30px; line-height: 30px; margin-top: 15px;}
+.price-info dd{padding: 0 70px;}
+.price-info dd p{font-size: 16px; color: #333; height: 30px; line-height: 30px; margin-bottom: 12px;}
+.price-info dd h3{font-size: 36px; color: #333;}
+.price-info .h-rate h3{float: left; color: #c00; font-size: 36px; margin-right: 30px;}
+.h-rate .rate-num{float: left; font-size: 12px; color: #999; line-height: 16px; width: 60px; padding-top: 8px;}
+.h-rate span{color: #c00; font-size: 14px;}
+.h-rate .green {color:#090;}
+.mapBox {border: 1px solid #ddd; position: relative; width: 1198px; margin-top: 10px;}
+.mapcity{width: 150px; height: 32px; line-height: 32px; color: #fff;font-size: 12px;  position: absolute; left: 0; top: 0px; text-align: center;filter:progid:DXImageTransform.Microsoft.gradient(enabled='true',startColorstr='#99000000', endColorstr='#99000000');}
+:root .mapcity {filter:none;background-color:rgba(0,0,0,0.6);} 
+
+.price-ud{width: 1200px; margin-top: 10px; }
+.price-up,.price-down{float: left; width: 508px; border: 1px solid #ddd; padding: 20px 42px 0;}
+.price-up{margin-right: 10px;}
+.price-up p,.price-down p{height: 34px; line-height: 34px; color: #333; font-size: 16px; margin-bottom: 10px;}
+.price-up li,.price-down li{padding-bottom: 15px; margin-bottom: 12px; border-bottom: 1px solid #ddd;}
+.price-up dl,.price-down dl{border-bottom: 1px solid #ddd; margin-bottom: 12px; width: 508px;}
+.price-up dt,.price-down dt{float: left; width: 22px; height: 22px; line-height: 22px; color: #fff; text-align: center; margin-right: 10px;
+	font-size: 12px; border-radius: 50%; background: #e7e7e7;}
+.price-up .red-num,.price-down .red-num{background: #e3393b;}
+.price-up dd,.price-down dd{float: left; color: #333; width: 476px;}
+.price-up dd p,.price-down dd p{height: 20px; line-height: 20px; font-size: 14px;}
+.pm-price,.pm-rate{float: right;}
+.pm-rate .arrow-up{display: inline-block; width: 8px; height: 11px; margin-right: 5px; vertical-align: -1px;
+	background: url(//static.soufunimg.com/esf/fangjia/website/images/jt_red.png) no-repeat;*vertical-align: middle; }
+.pm-rate .arrow-down{display: inline-block; width: 8px; height: 11px; margin-right: 5px; vertical-align: -1px;
+	background: url(//static.soufunimg.com/esf/fangjia/website/images/jt_green.png) no-repeat;*vertical-align: middle;}
+.price-up .f12,.price-down .f12{font-size: 12px;}
+.price-up .c999,.price-down .c999{color: #999;}
+.newnav20141104nr .s4 a{color:#fff;text-decoration:none;}
+.newnav20141104nr .s4 {    color: #fff;    font-size: 14px;    text-align: right;    text-shadow: 0 0 1px #fff;}
+.newnav20141104nr .s4a {float: right;padding-top: 15px;font-size: 14px;color: white;text-shadow: 0 0px 1px white;width: 45px;height: 35px;text-align: center;}
+
+/*20170330*/
+.cj-new,.cj-esf{display: block; border: 1px solid #ddd; padding: 0 22px 14px; width: 549px;}
+.cj-new{float: left;}
+.cj-esf{float: right;}
+.cj-new:hover,.cj-esf:hover{text-decoration: none;}
+.cj-newInfo,.cj-esfInfo{width: 100%;}
+.cj-newInfo h3,.cj-esfInfo h3{height: 60px; line-height: 60px; font-size: 24px; color: #333;}
+.more{float: right; color: #999; font-size: 14px;}
+.cj-newInfo .cj-zuo,.cj-esfInfo .cj-zuo{padding: 20px 0; height: 36px; border-bottom: 1px solid #f5f5f5;}
+.cj-zuo dt{float: left; margin: 12px 12px 0 0; color: #333; font-size: 16px;}
+.cj-zuo dd{float: left;}
+.cj-zuo dd span{margin-right: 10px;}
+.cj-zuo dd .cj-tao{font-size: 14px; color: #999;}
+.cj-zuo dd em{color: #df3031; font-size: 42px; font-weight: bold; line-height: 36px; margin-right: 5px; *line-height: 42px;}
+.cj-detail{padding: 14px 0;}
+.cj-detail .detail-item{float: left; width: 210px;}
+.detail-item.w170{width: 170px;}
+.detail-item.w120{width: 120px;}
+.detail-item.w190{width: 190px;}
+.detail-item p{height: 28px; line-height: 28px; color: #333; font-size: 14px; margin-bottom: 8px;}
+.detail-num{height: 26px;}
+.detail-num span{margin-right: 5px; color: #999;}
+.detail-num em{font-size: 25px; color: #333; margin-right: 3px; line-height: 27px;}
+.cj-zuo .rate,.detail-num .rate{font-size: 14px; color: #df3031; margin-right: 0;}
+.cj-zuo .rate{margin-top: 20px;}
+.cj-zuo .rate.green,.detail-num .rate.green{color: #0da46d;}
+.cj-detail .line{float: left; width: 1px; height: 64px; background: #f5f5f5; margin: 0 15px;}
+.cj-detail .line.mx60{margin: 0 60px;}

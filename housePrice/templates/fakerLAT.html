@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #l-map {
+            height: 800px;
+            width: 100%;
+            float: left;
+        }
+
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=n3dEB2E9nKLfDb4avibAMBd9fC2iTkt9
+"></script>
+    <title>lat&lnt</title>
+</head>
+<body>
+<div id="l-map"></div>
+
+
+<script src="../static/jquery-3.4.0.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // 百度地图API功能
+        map = new BMap.Map("l-map");            // 创建Map实例
+        map.centerAndZoom("{$address}", 12);
+
+
+        local = new BMap.LocalSearch(map, {
+            renderOptions: {map: map, autoViewport: true, selectFirstResult: false},
+            pageCapacity: 10
+        });
+
+
+        // var keys = new Array("{$address}");
+        locat_pos_xy = new Array();
+
+        local.setSearchCompleteCallback(function (searchResults) {
+            //console.log(searchResults);
+            if (typeof(searchResults) == "undefined") {
+                alert("百度API没有搜索到该地址");
+                return;
+            }
+            if (searchResults.length > 0) {
+                var searchResult = searchResults[0];
+            } else {
+                var searchResult = searchResults;
+            }
+
+            //console.log(searchResult);
+
+            var contents = [];
+
+            for (var i = 0; i < searchResult.getCurrentNumPois(); i++) {
+                //获得需要得到的坐标
+                var poi = searchResult.getPoi(i);
+                if (!poi) {
+                    alert("百度API没有搜索到该地址");
+                }
+
+                var marker = new BMap.Marker(new BMap.Point(poi.point.lng, poi.point.lat));
+
+                contents[i] = "你要查找的地方:【" + poi.title + "】<br/>地址：" + poi.address + "<br/>经度：" + poi.point.lng + "<br/>纬度：" + poi.point.lat;
+
+                locat_pos_xy[poi.title] = poi.point.lng + ',' + poi.point.lat;
+                $("#ttttt").html($("#ttttt").html() + locat_pos_xy[poi.title] + '<br/>');
+                console.dir(locat_pos_xy);
+                if (i == 0) {
+                    var infoWindow = new BMap.InfoWindow("<p style='font-size:14px;'>" + contents[0] + "</p>");
+                    marker.openInfoWindow(infoWindow);
+                }
+                break
+
+            }
+
+
+            function searchAddr() {
+                var keys = document.getElementById("txtKeyword").value;
+            }
+
+            function searchAddrWithArg(keys) {
+                local.search(keys);
+            }
+
+            $(document).ready(
+                function () {
+                    $.ajax({
+                        url: '/location/',
+                        type: 'GET',
+                        success: function (json_response) {
+                            //console.dir(json_response.location);
+                            for (var i = 0; i < json_response.location.length; i++) {
+                                searchAddrWithArg(json_response.location[i])
+                            }
+                        },
+                        error: function (err) {
+                            alert("err ---- ");
+                        }
+                    });
+
+                }
+            );
+        })});
+
+</script>
+
+<a id="ttttt"></a>
+</body>
+</html>
+

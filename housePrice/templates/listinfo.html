@@ -1,0 +1,86 @@
+{% extends "AImap.html" %}
+{% block content %}
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div class="panel-body" style="min-height:750px">
+
+
+        <div class="container-fluid well">
+            <div class="row">
+                <div class="col-sm-12">
+                    <table class="table table-responsive table-condensed table-hover">
+                        <thead>
+                        <tr>
+                            <th>id</th>
+                            <th>title</th>
+                            <th>community</th>
+                            <th>ApartmentTpye</th>
+                            <th>perPrice</th>
+                            <th>address</th>
+                            <th>houseSize</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+
+                            {% for x in pages1 %}
+                                <td>
+                                    <text style="font-size: small"><a data-method="get"
+                                                                      href="/detail/{{ x.1.0}}/">{{ x.1.0 }}</a></text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.1 }}</text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.2 }}</text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.3 }}</text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.4 }}</text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.5 }}</text>
+                                </td>
+                                <td>
+                                    <text style="font-size: small">{{ x.1.6 }}</text>
+                                </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        {# 实现分页标签的代码 #}
+        {# 这里使用 bootstrap 渲染页面 #}
+        <div id="pages" class="text-center">
+            <nav>
+                <ul class="pagination">
+                    <li class="step-links">
+                        <a class='active' href="?page=1">首页</a>
+                        {% if pages.has_previous %}
+                            <a class='active' href="?page={{ pages1.previous_page_number }}">上一页</a>
+                        {% endif %}
+
+                        <span class="current">
+                    Page {{ pages1.number }} of {{ pages1.paginator.num_pages }}</span>
+
+                        {% if pages1.has_next %}
+                            <a class='active' href="?page={{ pages1.next_page_number }}">下一页</a>
+                        {% endif %}
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+
+{% endblock %}
+

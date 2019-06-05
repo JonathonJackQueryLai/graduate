@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #l-map {
+            height: 300px;
+            width: 100%;
+        }
+
+        #r-result {
+            width: 100%;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    </style>
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=n3dEB2E9nKLfDb4avibAMBd9fC2iTkt9"></script>
+    <title>周边基设</title>
+</head>
+<body>
+<div id="l-map"></div>
+<div id="r-result"></div>
+<div id="allmap"></div>
+{% load static %}
+{#<script src="../static/jquery-3.4.0.min.js"></script>#}
+<script src="{% static 'jquery-3.4.0.min.js' %}"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // 百度地图API功能
+        var map = new BMap.Map("l-map");            // 创建Map实例
+        var mPoint = new BMap.Point(113.093, 22.604); // 经纬度
+        var marker = new BMap.Marker(mPoint);
+        map.enableScrollWheelZoom();                    //地图可放大缩小的
+        map.centerAndZoom(mPoint, 15);                  // 设置中心点
+        map.addOverlay(marker);                         //加载覆盖物
+        marker.setAnimation(BMAP_ANIMATION_BOUNCE);     // 出现跳点
+        var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+        map.addControl(top_left_control);
+        var myKeys = ['公交车站', '酒店', '广场', '医院', '学校', '景点']; // 先声明需要获取的周边基设信息的名称
+
+        // 画出一个搜索范围圈
+        var circle = new BMap.Circle(mPoint, 500, {
+            fillColor: "yellow",
+            strokeWeight: 1,
+            fillOpacity: 0.3,
+            strokeOpacity: 0.3
+        });
+        map.addOverlay(circle);
+
+        local.searchNearby(myKeys, mPoint, 500);
+    });
+
+</script>
+
+</body>
+</html>
+
+
+

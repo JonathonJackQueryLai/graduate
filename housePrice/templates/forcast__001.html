@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>估算房价</title>
+    <link rel="stylesheet" type="text/css" href="../static/default20170216.css">
+</head>
+<body>
+<form action="/DT_price/" method="get" id="form_pinggufast">
+    <ul class="form-item clearfix">
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>小区：</label>
+            <div class="village">
+                <div class="village-search clearfix">
+                    <input type="text" id="fastpinguindex" tabindex="1" name="community" class="input-w180" value="输入小区名称"
+                           autocomplete="off">
+                <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+                </div>
+                <div class="village-subject" style="display: block;">
+
+                    <table id="fastsuggestionindex" class="search_selectted search_select"
+                           style="border: 1px solid rgb(221, 221, 221); display: none;" width="244" cellspacing="0"
+                           cellpadding="4">
+                        <tbody>
+                        <tr></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>面积：</label>
+            <div class="areaDiv" id="pgsy_D01_02" cig="cig">
+                <input type="text" name="buildareatxt" id="buildareatxt" value="" tabindex="2" class="input-w195"
+                       autocomplete="off">
+                <span class="pm">㎡</span>
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>朝向：</label>
+            <div class="select-box " style="z-index: 99;" id="pgsy_D01_03" cig="cig">
+                <div class="title">
+                    <div id="select_forward" class="select_box">
+                        <div id="select_info_forward" class="tag_select" style="cursor: pointer;">南北</div>
+                        <ul id="options_forward" class="searchInfo01" style="display: none; float: left;">
+                            <li style="cursor: pointer;" class="open_selected" value="0" id="selected_forward">南北</li>
+                            <li style="cursor: pointer;" class="open" value="0">南</li>
+                            <li style="cursor: pointer;" class="open" value="0">东南</li>
+                            <li style="cursor: pointer;" class="open" value="0">西南</li>
+                            <li style="cursor: pointer;" class="open" value="0">东西</li>
+                            <li style="cursor: pointer;" class="open" value="0">东</li>
+                            <li style="cursor: pointer;" class="open" value="0">东北</li>
+                            <li style="cursor: pointer;" class="open" value="0">西</li>
+                            <li style="cursor: pointer;" class="open" value="0">西北</li>
+                            <li style="cursor: pointer;" class="open" value="0">北</li>
+                        </ul>
+                    </div>
+                    <select id="forward" style="display: none;" tabindex="3" name="forward">
+                        <option value="南北">南北</option>
+                        <option value="南">南</option>
+                        <option value="东南">东南</option>
+                        <option value="西南">西南</option>
+                        <option value="东西">东西</option>
+                        <option value="东">东</option>
+                        <option value="东北">东北</option>
+                        <option value="西">西</option>
+                        <option value="西北">西北</option>
+                        <option value="北">北</option>
+                    </select>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>楼层：</label>
+            <div class="floorDiv" id="pgsy_D01_04" cig="cig">
+                <input type="text" name="floortxt" id="floortxt" tabindex="4" class="input-w195" autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">
+                <span class="star">*</span>总楼层：</label>
+            <div class="floorDiv" id="pgsy_D01_05" cig="cig">
+                <input type="text" name="totalfloortxt" id="totalfloortxt" tabindex="5" class="input-w195"
+                       autocomplete="off">
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">装修年限：</label>
+            <div class="select-box" style="z-index: 98;" id="pgsy_D01_06" cig="cig">
+                <div class="title">
+                    <div id="select_fitment">
+                        <div id="select_info_fitment" class="tag_select"
+                             style="cursor: pointer; font-family: '微软雅黑'; font-size: 14px;">请选择
+                        </div>
+                        <ul id="options_fitment" class="searchInfo01"
+                            style="position: absolute; z-index: 99; float: left; display: none;">
+                            <li style="cursor: pointer;" class="open_selected" value="0" id="selected_fitment">请选择</li>
+                            <li style="cursor: pointer;" class="open" value="0">一年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">二年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">三年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">四年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">五年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">六年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">七年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">八年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">九年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">十年以内</li>
+                            <li style="cursor: pointer;" class="open" value="0">十年以上</li>
+                        </ul>
+                    </div>
+                    <select id="fitment" style="display: none;" name="fitment">
+                        <option value="请选择">请选择</option>
+                        <option value="一年以内">一年以内</option>
+                        <option value="二年以内">二年以内</option>
+                        <option value="三年以内">三年以内</option>
+                        <option value="四年以内">四年以内</option>
+                        <option value="五年以内">五年以内</option>
+                        <option value="六年以内">六年以内</option>
+                        <option value="七年以内">七年以内</option>
+                        <option value="八年以内">八年以内</option>
+                        <option value="九年以内">九年以内</option>
+                        <option value="十年以内">十年以内</option>
+                        <option value="十年以上">十年以上</option>
+                    </select>
+                </div>
+            </div>
+        </li>
+        <li class="clearfix">
+            <label class="form-label">装修金额：</label>
+            <div class="priceDiv" id="pgsy_D01_07" cig="cig">
+                <input type="text" name="fitmenttxt" id="fitmenttxt" tabindex="7" class="input-w195" autocomplete="off">
+                <span class="wy">万元</span>
+            </div>
+        </li>
+    </ul>
+    <input type="hidden" id="strnewcodefast" name="strnewcodefast" value="">
+    <input type="hidden" id="projname" name="projname">
+    <input type="hidden" id="housetypes" name="housetypes" value="">
+    <input type="hidden" id="strcityfast" name="strcityfast" value="江门">
+    <input type="hidden" id="pingguprice" name="pingguprice">
+    <input type="hidden" id="totalprice" name="totalprice">
+    <input type="hidden" id="totalprice1" name="totalprice1">
+    <input type="hidden" id="pgid" name="pgid">
+    <input type="hidden" id="newcode" name="newcode">
+    <input type="hidden" id="cityshort" name="cityshort" value="jm">
+    <input type="hidden" id="danyuanHidden" name="danyuanHidden">
+    <input type="hidden" id="boolnewsearch" name="boolnewsearch" value="True">
+    <input type="hidden" id="ablepg" name="ablepg">
+    <input type="hidden" id="sofrom" name="sofrom" value="default2017">
+    <span class="btn-submit" onclick="checkfirststep(shortInDB)">查房价</span>
+
+    <input type="hidden" name="_csrf" value="D4dSv67M-kfBWAsCP6voHtHiiO-NYU7h0A2E"></form>
+</body>
+</html>

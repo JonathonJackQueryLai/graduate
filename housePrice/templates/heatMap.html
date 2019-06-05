@@ -1,0 +1,65 @@
+{% extends "AImap.html" %}
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <i class="fa fa-bar-chart-o fa-fw"></i> 房屋密度分布热力图
+  </div>
+  <div class="panel panel-body">
+      <div id="main" style="width: 800px;height:500px;"><a href="www.baid.com"></a></div>
+  </div>
+</div>
+
+<script>
+  var myChart = echarts.init(document.getElementById('#main'));
+  var house_data = [];
+  $.ajax({
+    type: "GET",
+    url: "/houses/return_houses",
+    dataType: 'json',
+    success: function (data) {
+      myChart.hideLoading();
+
+      $.each(data, function (index, house) {
+        var each_house = [];
+        each_house.push(house.longitude, house.latitude);
+        house_data.push(each_house);
+      });
+
+      myChart.setOption({
+        visualMap: {
+          show: false,
+          top: 'top',
+          min: 0,
+          max: 5,
+          seriesIndex: 0,
+          calculable: true,
+          inRange: {
+            color: ['blue', 'blue', 'green', 'yellow', 'red']
+          }
+        },
+        bmap: {
+          center: [116.404, 39.915],
+          zoom: 12,
+          roam: true
+        },
+        series: [{
+          name: 'house',
+          type: 'heatmap',
+          coordinateSystem: 'bmap',
+          data: house_data,
+          symbolSize: 12,
+          pointSize: 6,
+          blurSize: 15
+        }]
+      });
+
+    },
+    error: function () {
+      alert('error')
+    },
+    timeout: function () {
+      alert('time out')
+    }
+  });
+
+
+</script>

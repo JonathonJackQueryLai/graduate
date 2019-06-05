@@ -1,0 +1,162 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+    <style type="text/css">
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+
+        #l-map {
+            height: 300px;
+            width: 100%;
+        }
+
+        #r-result {
+            width: 100%;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    </style>
+
+    <script type="text/javascript"
+            src="http://api.map.baidu.com/api?v=2.0&ak=n3dEB2E9nKLfDb4avibAMBd9fC2iTkt9"></script>
+    <title>周边基设</title>
+</head>
+<body>
+
+<div id="l-map"></div>
+<div id="r-result"></div>
+<div id="allmap"></div>
+<input id="textId" value="{{ TutorialList }}"></input>
+
+<script src="../static/jquery-3.4.0.min.js"></script>
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        // 百度地图API功能
+        //{#var field = {{ TutorialList|safe }};#}
+
+        var map = new BMap.Map("l-map");
+        map.centerAndZoom(113.093, 22.604, 12);// 创建Map实例
+        var mPoint = new BMap.Point(113.093, 22.604);
+        var marker = new BMap.Marker(mPoint);
+        map.enableScrollWheelZoom();
+        map.centerAndZoom(mPoint, 15);
+        map.addOverlay(marker);
+        var circle = new BMap.Circle(mPoint, 500, {
+            fillColor: "yellow",
+            strokeWeight: 1,
+            fillOpacity: 0.3,
+            strokeOpacity: 0.3
+        });
+        map.addOverlay(circle);
+        var local = new BMap.LocalSearch(map, {renderOptions: {map: map, autoViewport: false}});
+        var myKeys = ['公交站', '餐饮娱乐', '超市商场', '医疗机构', '教育机构', '景点'];
+        //var positions = new Array();
+        $.ajax({
+            url: '/location/',
+            type: 'GET',
+            success: function (json_response) {
+                //console.dir(json_response.location);
+                for (var i = 0; i < json_response.location.length; i++) {
+                    searchAddrWithArg(json_response.location[i]);
+                }
+            },
+            error: function (err) {
+                alert("err ---- ");
+            }
+        });
+
+        function searchAddrWithArg(field) {
+
+            local.searchNearby(myKeys, field, radius = 500);
+        }
+
+        local.setSearchCompleteCallback(function (searchResults) {
+            console.dir(searchResults);
+            if (typeof(searchResults) == "undefined") {
+                alert("百度API没有搜索到该地址");
+                return;
+            }
+
+            if(searchResults.length>0){
+            var result = new Map();
+            let busStationTmp = searchResults[0].Ar;
+            let busStation = new Array();
+            for (let i = 0; i < busStationTmp.length; i++) {
+                busStation.push(busStationTmp[i].title + "-公交车站");
+            }
+            result.set("BusStation", busStation);
+
+            let hotelTmp = searchResults[1].Ar;
+            let hotel = new Array();
+            for (let i = 0; i < hotelTmp.length; i++) {
+                hotel.push(hotelTmp[i].title);
+            }
+            result.set("Hotel", hotel);
+
+            let squareTmp = searchResults[2].Ar;
+            let square = new Array();
+            for (let i = 0; i < squareTmp.length; i++) {
+
+                square.push(squareTmp[i].title);
+            }
+            result.set("Square", square);
+
+            let hospitalTmp = searchResults[3].Ar;
+            let hospital = new Array();
+            for (let i = 0; i < hospitalTmp.length; i++) {
+
+
+                hospital.push(hospitalTmp[i].title);
+            }
+            result.set("Hospital", hospital);
+
+            let schoolTmp = searchResults[4].Ar;
+            let school = new Array();
+            for (let i = 0; i < schoolTmp.length; i++) {
+
+
+                school.push(schoolTmp[i].title);
+
+            }
+            result.set("School", school);
+
+            let senicSpotTmp = searchResults[5].Ar;
+            let senicSpot = new Array();
+            for (let i = 0; i < senicSpotTmp.length; i++) {
+
+                senicSpot.push(senicSpotTmp[i].title);
+            }
+            result.set("SenicSpot", senicSpot);
+
+            console.dir(result);
+            map.clearOverlays();
+
+            $.post('/pmc/', {data: result}, function (data, status) {
+
+                console.log('data:' + data);
+
+            });
+        }
+
+            // test_ajax
+        });
+
+
+    })
+    ;
+
+</script>
+
+
+</body>
+</html>
+
+
+
